@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-	padding-top: 35px;
+	padding: 10px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -182,12 +182,15 @@ body {
 	
 }
 .sklls__lines {
+	width: 100%;
 	
 }
 .skills__item {
 	display: flex;
 	align-items: center;
 	margin-bottom: 80px;
+	width: 100%;
+	justify-content: flex-end;
 	
 
 }
@@ -201,7 +204,8 @@ body {
 
 .skills__grey {
 	position: relative;
-	width: 600px;
+	width: 100%;
+	max-width: 600px;
 	height: 32px;
 	background-color: #DBDBED;
 	
@@ -562,6 +566,14 @@ body {
 }
 
 @media(max-width: 768px){
+	.about {
+		padding: 70px 0;
+	
+	}
+
+	.skills__content{
+		flex-direction: column;
+	}
 
 	.header__burger{
 		display: flex;
@@ -588,6 +600,8 @@ body {
 		}
 	}
 
+	
+
 	.header__menu-item{
 		width: 100%;
 	}
@@ -599,6 +613,14 @@ body {
 		font-size: 32px;
 	}
 
+	.skills {
+		
+		padding: 35px 0;
+	}
+
+	.services {
+		padding: 60px 0;
+	}
 	
 	.reviews{
 		padding: 50px 0;
